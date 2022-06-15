@@ -10,6 +10,18 @@ footer {
     margin: 0 calc((100% - 1000px)/2);
 }
 
+
+body > * {
+    margin-bottom: 60px;
+}
+
+body> *:nth-last-child(2) {
+    margin-bottom: 0;
+
+}
+
+/* header style */
+
 img {
     float: left;
 }
@@ -18,7 +30,7 @@ nav {
     float: right;
 }
 
-a {
+nav a {
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -33,4 +45,19 @@ nav a:hover {
     text-decoration: underline;
     color: #649;
     cursor: pointer;
+}
+
+/* main style */
+
+/* footer style */
+
+div {
+    float: left;
+}
+div a {
+
+}
+p {
+    float:right;
+    margin: 0;
 }
