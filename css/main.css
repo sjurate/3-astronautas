@@ -1,5 +1,5 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: system-ui,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
@@ -44,7 +44,26 @@ body> *:nth-last-child(2) {
 
 /* main style */
 
+.left-column {
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+}
 
+.right-column {
+    float: right;
+    width: 55%;
+}
+.main-title {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.main-title > span {
+    font-weight: 100;
+    display: block;
+}
 
 /* footer style */
 
@@ -53,6 +72,8 @@ body> *:nth-last-child(2) {
 }
 .socials a {
     text-decoration: none;
+    font-size: 20px;
+    color: #CBCCCC;
 }
 
 .copyright {
