@@ -9,9 +9,8 @@ body {
     margin-bottom: 60px;
 }
 
-body> *:nth-last-child(2) {
+.container:last-child {
     margin-bottom: 0;
-
 }
 
 /* header style */
