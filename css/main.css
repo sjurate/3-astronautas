@@ -57,12 +57,27 @@ body> *:nth-last-child(2) {
 .main-title {
     font-size: 60px;
     margin: 0;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .main-title > span {
     font-weight: 100;
     display: block;
+}
+
+.main-title::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin-top: 10px;
+    background-color:#649;
+    box-shadow: 3px 4px 12px #FBD647;
+}
+
+.left-column .description {
+    font-size: 18px;
+    margin-bottom: 45px;
 }
 
 /* footer style */
